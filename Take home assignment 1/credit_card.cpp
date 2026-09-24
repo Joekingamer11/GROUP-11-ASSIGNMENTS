@@ -20,6 +20,7 @@ int main() {
         cout << cardNumber << " is invalid." << endl;
 
     return 0;
+
 }
 
 bool isValid(long long number) {
@@ -75,3 +76,4 @@ long long getPrefix(long long number, int k) {
     }
     return number;
 }
+// this is Natasha's changes.

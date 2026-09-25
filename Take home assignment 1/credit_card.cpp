@@ -20,6 +20,7 @@ int main() {
         cout << cardNumber << " is invalid." << endl;
 
     return 0;
+
 }
 
 bool isValid(long long number) {
@@ -67,7 +68,7 @@ int getSize(long long d) {
     }
     return size;
 }
-
+// getting prefixes//
 long long getPrefix(long long number, int k) {
     int size = getSize(number);
     for (int i = size - k; i > 0; i--) {
@@ -75,4 +76,5 @@ long long getPrefix(long long number, int k) {
     }
     return number;
 }
-//change
+// this is Natasha's changes.
+// This is joe's changes
